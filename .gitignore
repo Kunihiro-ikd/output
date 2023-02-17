@@ -4,3 +4,4 @@ tutorial_data
 *.out
 *.pth
 *.zip
+*.pt
