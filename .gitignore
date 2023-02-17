@@ -5,3 +5,4 @@ tutorial_data
 *.pth
 *.zip
 *.pt
+*DS_Store
