@@ -4,8 +4,8 @@ import torch
 
 #--- 検出する際のモデルを読込 ---
 # ローカルにない時は、webのyoloを使用
-# model = torch.hub.load('ultralytics/yolov5','yolov5s')#--- webのyolov5sを使用
-model = torch.hub.load("./",'yolov5s',source='local')#--- localのyolov5sを使用
+model = torch.hub.load('ultralytics/yolov5','yolov5s')#--- webのyolov5sを使用
+# model = torch.hub.load("./",'yolov5s',source='local')#--- localのyolov5sを使用
 
 
 #--- 検出の設定 ---
